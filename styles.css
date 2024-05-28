@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./images/tokyo.jpg");
+  background-size: cover;
+}
+
+header {
+  hight: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding: 0 16px;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 999px;
+  background-color: white;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  width: 200px;
+}
+
+.search-container button {
+  background-color: #272727;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  color: white;
+}
+
+aside {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 12px;
+  width: 60px;
+  height: 100vh;
+}
+
+.content {
+  padding: 32px 32px 32px 60px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.home-content-info {
+  max-width: 724px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.home-content p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+main h1 {
+  font-size: 72px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.home-content button {
+  align-self: flex-start;
+  background-color: #0ad609;
+  color: #272727;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.about-content section {
+  margin-top: 32px;
+  border-radius: 16px;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.our-team {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.about-page-info p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.our-team h2 {
+  flex: 1;
+  font-size: 48px;
+  margin: 0;
+}
+
+.team-member {
+  flex: 1;
+  max-width: 230px;
+}
+
+.team-member h3 {
+  margin: 0;
+}
+
+.team-member-title {
+  background-color: #0ad609;
+  color: #272727;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+}
+
+.contact-content form {
+  margin-top: 32px;
+  border-radius: 16px;
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-item label {
+  font-size: 18px;
+}
+
+.form-item input,
+.form-item textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: #0ad609;
+  color: #272727;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 0;
+  border-radius: 4px;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info {
+  padding: 24px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
+  color: black;
+}
+
+.card-info h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-info p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card-info button {
+  align-self: flex-start;
+  background-color: #0ad609;
+  color: #272727;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+}
